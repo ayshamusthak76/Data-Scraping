@@ -18,9 +18,9 @@ browser=webdriver.Chrome("C:\\Users\\USER\\Documents\\chromedriver_win32\\chrome
 browser.get("https://www.linkedin.com")
 
 username=browser.find_element_by_id("session_key")
-username.send_keys("rasheedarasool@gmail.com")
+username.send_keys("username")
 password=browser.find_element_by_id("session_password")
-password.send_keys("sappillai")
+password.send_keys("password")
 
 login_button=browser.find_element_by_class_name("sign-in-form__submit-button")
 login_button.click()
